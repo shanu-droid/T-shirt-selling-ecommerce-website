@@ -1,4 +1,4 @@
-const stripe = require("stripe")("sk_test_51IcqR5SEWXl2FzuQLVdRClg7IDiTFwyNaB2Tg6zrYWzRKpCpwzqQt7RQMnTxXgdM8jF5D2UBCzXRDEzLhXJeTgOf00KiLhbq1m")
+const stripe = require("stripe")(process.env.PRIVATE_KEY)
 const { v4: uuid } = require('uuid');
 
 
